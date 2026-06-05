@@ -1,0 +1,49 @@
+  
+.container {
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+.titulo {
+  text-align: center;
+  color: #ff6600;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+
+.imagenes {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.imagenes-pj {
+  width: 100%;
+  border-radius: 8px;
+}
+
